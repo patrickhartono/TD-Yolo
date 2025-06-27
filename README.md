@@ -2,10 +2,12 @@
 
 A high-performance YOLO v11 implementation for TouchDesigner with automatic hardware acceleration support for Apple Silicon (MPS) and NVIDIA GPUs (CUDA).
 
-> ⚠️ **Note**:
-> ✅ **Supported platforms**: macOS (M1/M2/M3/M4) and Windows (NVIDIA GPU only)
-> 🧪 **Tested with**: TouchDesigner **Experimental 2025.30060** only
-> 🔗 Download here: [https://derivative.ca/download/experimental](https://derivative.ca/download/experimental)
+⚠️ **Note**:
+✅ **Supported platforms**: macOS (M1/M2/M3/M4) and Windows (NVIDIA GPU only)
+
+🧪 **Tested with**: TouchDesigner **Experimental 2025.30060** only on macOS (M4 Pro, 24gb, 12-Core CPU & 16-Core GPU)
+
+🔗 Download here: [https://derivative.ca/download/experimental](https://derivative.ca/download/experimental)
 
 ## ✨ Features
 
