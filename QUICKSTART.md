@@ -9,8 +9,8 @@
 # Clone or download this project
 # Open terminal in project folder
 
-# Create environment
-conda env create -f environment_optimized.yml
+# Create environment (you can choose the name)
+conda env create -n yolo11-TD -f environment_optimized.yml
 conda activate yolo11-TD
 
 # Verify everything works

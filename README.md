@@ -53,8 +53,13 @@ cd /path/to/TD-Yolo
 
 **Option A: Using Conda (recommended)**
 ```bash
-conda env create -f environment_optimized.yml
+# Create environment with default name (yolo11-TD)
+conda env create -n yolo11-TD -f environment_optimized.yml
 conda activate yolo11-TD
+
+# Or create with custom name
+conda env create -n your-custom-name -f environment_optimized.yml
+conda activate your-custom-name
 ```
 
 **Option B: Using pip + venv**

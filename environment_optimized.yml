@@ -1,4 +1,11 @@
-name: yolo11-TD
+# TouchDesigner YOLO Environment Configuration
+# ===============================================
+# This file defines the conda environment for TouchDesigner YOLO integration
+# 
+# Usage:
+#   conda env create -n yolo11-TD -f environment_optimized.yml
+#   conda env create -n custom-name -f environment_optimized.yml
+#
 channels:
   - conda-forge
   - pytorch
