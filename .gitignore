@@ -1,0 +1,55 @@
+# YOLO Model files - these are auto-downloaded by Ultralytics
+*.pt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+yolo11-TD/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# TouchDesigner temp files
+*.temp.toe
+*.backup.toe
+
+# Logs
+*.log
+
+# Cache directories
+.cache/
+.ultralytics/

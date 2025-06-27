@@ -1,0 +1,49 @@
+# TouchDesigner YOLO Requirements
+# ================================
+# Use this file if you prefer pip installation over conda
+
+# Core dependencies
+torch>=2.7.0
+torchvision>=0.22.0
+torchaudio>=2.7.0
+
+# Computer Vision
+opencv-python==4.11.0.86
+pillow>=11.2.0
+
+# YOLO and AI
+ultralytics>=8.3.0
+
+# Numerical computing
+numpy>=2.3.0
+scipy>=1.16.0
+
+# Data handling
+pandas>=2.3.0
+
+# System utilities
+psutil>=7.0.0
+requests>=2.32.0
+
+# Progress and monitoring
+tqdm>=4.67.0
+
+# Optional: Performance optimization
+numba>=0.60.0
+scikit-image>=0.24.0
+
+# Optional: Plotting (if you need visualization)
+matplotlib>=3.10.0
+
+# Platform-specific packages
+pywin32>=306; sys_platform == "win32"  # Windows only
+
+# File handling
+pyyaml>=6.0.0
+packaging>=25.0.0
+
+# Development and debugging
+py-cpuinfo>=9.0.0
+
+# Optional: GPU monitoring
+py3nvml>=0.2.7  # NVIDIA GPU monitoring
