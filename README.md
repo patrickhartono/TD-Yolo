@@ -179,33 +179,6 @@ cell phone, microwave, oven, toaster, sink, refrigerator, book, clock, vase,
 scissors, teddy bear, hair drier, toothbrush
 ```
 
-## 🎛️ Performance Tuning
-
-### ⏱️ For Real-time Applications
-
-```
-Frame Skip: 0–1
-Confidence: 0.25–0.4
-Classes: Specific objects only
-```
-
-### 🧪 For Demo/Presentation
-
-```
-Frame Skip: 2–3
-Confidence: 0.4–0.6
-Classes: person,car,bicycle (common objects)
-```
-
-### 🏎️ For Performance-Critical Scenarios
-
-```
-Frame Skip: 5+
-Confidence: 0.6+
-Classes: Single object type
-Draw Bounding Box: Off
-```
-
 ## 🧯 Troubleshooting
 
 > 🔧 **Having issues?** See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions to common problems.
