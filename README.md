@@ -117,29 +117,27 @@ python -c "from ultralytics import YOLO; print('YOLO installation successful')"
 [YOLO] Using Metal Performance Shaders (MPS) for M4 Pro optimization
 ```
 
-## 🎮 TouchDesigner Setup
+## 🎮 TouchDesigner Setup (Streamlined Version)
 
-1. 🧾 **Create a Script DAT**
+1. 🗂️ **Open the Project File**
 
-   * In TouchDesigner Experimental 2025.30060, create a new Script DAT
-   * Set the DAT to "DAT Execute"
+   - Open the provided `.toe` file included in this repository (with `.td` format support for TouchDesigner 2025.30060)
+   - This project is pre-configured to work with the `td.py` script using `manager21`
 
-2. 📋 **Copy the Script**
+2. 🔌 **Automatic Webcam Connection**
 
-   * Copy the contents of `Python/touchdesigner_yolo_script.py` into the Script DAT
+   - No manual video input setup required
+   - The project will automatically connect to your webcam on launch
 
-3. 🎥 **Connect Video Input**
+3. 🎛️ **Configure Parameters (Optional)**
 
-   * Connect your video source (Camera, Movie File, etc.) to the Script DAT input
+   The custom **YOLO** parameter page includes:
 
-4. 🎛️ **Configure Parameters**
+   - ✅ **Draw Bounding Box** – Toggle object detection overlays
+   - 🧠 **Detection Classes** – Specify target objects (e.g., `"person,car,bicycle"`)
+   - 🎯 **Confidence Threshold** – Adjust detection confidence (range: `0.0–1.0`)
+   - ⏩ **Frame Skip** – Set number of frames to skip for better performance (`0 = all frames`)
 
-   * The script will automatically create a "YOLO" parameter page with the following controls:
-
-     * ✅ **Draw Bounding Box**: Toggle detection visualization
-     * 🧠 **Detection Classes**: Filter specific objects (comma-separated, e.g., "person,car,bicycle")
-     * 🎯 **Confidence Threshold**: Adjust detection sensitivity (0.0–1.0)
-     * ⏩ **Frame Skip**: Skip frames to improve performance (0 = all frames)
 
 ## 🛠️ Usage Examples
 
